@@ -98,6 +98,7 @@ class RadioTest {
         tapok.minus();
         assertEquals(0, tapok.getSoundVolume());
     }
+
     @Test
     void setNewStationLimits() {
         Radio tapok = new Radio(20,200);
@@ -111,5 +112,4 @@ class RadioTest {
 
         assertEquals(200, tapok.getMaxVolume());
     }
-}
 }
