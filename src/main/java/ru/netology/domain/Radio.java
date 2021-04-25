@@ -7,7 +7,7 @@ public class Radio {
     private int minStation = 0;
     private int maxVolume = 100;
     private int minVolume = 0;
-    
+
     public Radio(int maxStation, int maxVolume) {
         this.maxStation = maxStation;
         this.maxVolume = maxVolume;
@@ -19,7 +19,7 @@ public class Radio {
     public int getNumberStation() {
         return numberStation;
     }
-    
+
     public int getSoundVolume() {
         return soundVolume;
     }
@@ -50,10 +50,6 @@ public class Radio {
             return;
         }
         numberStation--;
-    }
-
-    public int getSoundVolume() {
-        return soundVolume;
     }
 
     public void plus() {
